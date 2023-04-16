@@ -89,7 +89,7 @@ computed: {
 }
 ```
 
-最上方显示 `<router-view></router-view>`，这样就可以在同一个页面上显示组件了。
+在父组件teamsList最上方显示 `<router-view></router-view>`（teammembers的占位符），这样就可以在同一个页面上显示组件了。
 
 ## 命名路由
 
@@ -157,3 +157,4 @@ router.push(`/user/${username}`)
 router.push({ path: `/user/${username}` })
 router.push({ name: 'user', params: { username } })
 ```
+🥳更多详细情况写在注释中
